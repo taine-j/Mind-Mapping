@@ -1,0 +1,110 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mind Mapping Tool</title>
+  <link rel="stylesheet" href="./stylesheets/mindmapStyles.css"> 
+</head>
+<body>
+  <div class="container">
+  <div class="loading-indicator" style="display: none;">
+    <div class="spinner"></div>
+    <p>Loading...</p>
+  </div>
+    <div class="sidebar">
+      <div class="tools"> 
+        <h2>Tools</h2>
+        <button id="add-node">Add Node</button>
+        <button id="ai-node">Add AI Node</button>
+        <button id="delete-node">Delete Node</button>
+        <button id="connect-nodes">Connect Nodes</button>
+        <button id="deselect-nodes">Deselect Nodes</button>
+        <button id="clearButton">Clear</button>
+        <button id="generate-summary">Generate AI Summary</button>
+
+ <div id="summaryModal" class="modal">
+  <div class="modal-content">
+    <h4>Summary</h4>
+    <p id="summaryText"></p>
+  </div>
+  <div class="modal-footer">
+    <button id="closeModal">Close</button>
+  </div>
+</div>
+      </div>
+      <button id="saveMindMapButton">Save</button>
+      <button id="logout">Logout</button> 
+    </div>
+    <div id="workspace" class="main">
+      <canvas id="canvas"></canvas>
+      <div class="node" id="node1" style="position:absolute; left:100px; top:50px;">
+        <div class="drag-handle"></div>
+        <p contenteditable="true">Node 1</p>
+      </div>
+      <div class="node" id="node2" style="position:absolute; left:300px; top:150px;">
+        <div class="drag-handle"></div>
+        <p contenteditable="true">Node 2</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="./javascripts/main.js" defer></script> 
+</html>
+ -->
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mind Mapping Tool</title>
+  <link rel="stylesheet" href="./stylesheets/mindmapStyles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="loading-indicator" style="display: none;">
+      <div class="spinner"></div>
+      <p>Loading...</p>
+    </div>
+    <div class="sidebar">
+      <div class="tools"> 
+        <h2>Tools</h2>
+        <button id="add-node">Add Node</button>
+        <button id="ai-node">Add AI Node</button>
+        <button id="delete-node">Delete Node</button>
+        <button id="connect-nodes">Connect Nodes</button>
+        <button id="deselect-nodes">Deselect Nodes</button>
+        <button id="clearButton">Clear</button>
+        <button id="generate-summary">Generate AI Summary</button>
+      </div>
+      <button id="saveMindMapButton">Save</button>
+      <button id="logout">Logout</button> 
+    </div>
+    <div id="workspace" class="main">
+      <canvas id="canvas"></canvas>
+      <div class="node" id="node1" style="position:absolute; left:100px; top:50px;">
+        <div class="drag-handle"></div>
+        <p contenteditable="true">Node 1</p>
+      </div>
+      <div class="node" id="node2" style="position:absolute; left:300px; top:150px;">
+        <div class="drag-handle"></div>
+        <p contenteditable="true">Node 2</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Structure -->
+  <div id="summaryModal" class="modal">
+    <div class="modal-content">
+      <h4>Summary</h4>
+      <p id="summaryText"></p>
+    </div>
+    <div class="modal-footer">
+      <button id="closeModal">Close</button>
+    </div>
+  </div>
+
+  <script src="./javascripts/main.js" defer></script>
+</body>
+</html>
