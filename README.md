@@ -10,5 +10,4 @@ I plan to refactor this project using TypeScript to enrich my knowledge of the l
 # Notes:
 npm start to start server.
 
-# Gif:
 ![gif](./demo.gif)]
