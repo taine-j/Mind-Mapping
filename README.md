@@ -11,4 +11,4 @@ I plan to refactor this project using TypeScript to enrich my knowledge of the l
 npm start to start server.
 
 # Gif:
-![](https://github.com/taine-j/Mind-Mapping/demo.gif)
+![gif](./demo.gif)]
